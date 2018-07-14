@@ -2,12 +2,12 @@
 html,.container {
   position:relative;
   min-height:100%;
+  border-top: 5px solid #111;
 }
 
 body {
   min-height:100%;
   height:auto;
-  border-top: 5px solid #111;
 }
 
 .page-content {
