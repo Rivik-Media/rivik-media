@@ -11,7 +11,7 @@ email: hello@rivikmedia.com
 description: A Connectiucut base web development and technology consukting agency for small businesses. 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://rivik-media.github.io" # the base hostname & protocol for your site
-twitter_username: swoicik
+twitter_username: rivikmedia
 github_username:  rivik-media
 
 # Build settings
