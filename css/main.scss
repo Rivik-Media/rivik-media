@@ -19,6 +19,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
+$boarder-top: 5px solid #11111;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -27,7 +28,6 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    800px;
-
 $on-palm:          550px;
 $on-laptop:        780px;
 
