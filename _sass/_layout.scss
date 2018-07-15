@@ -135,7 +135,7 @@ input#menu-toggle {
 .nav .menu-icon {
   display:none;
   position:absolute;
-  right:8%;
+  right:5%;
 
   @include media-query($on-laptop) {
     top: 67px;
