@@ -46,7 +46,7 @@
   box-sizing: border-box;
   /* for test only */
   /* border: 1px dashed #eeeeee; */
-  border: 3px solid #111;
+  border-top: 3px solid #111;
 
 }
 .column,
@@ -140,8 +140,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: -apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
-  color: #222; 
-  background: #780000; }
+  color: #222; }
 
 
 /* Typography
