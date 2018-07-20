@@ -16,6 +16,14 @@ title: Work
       <header class="post_header">
         <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
       </header>
+      <div class="post_meta">
+        {% for category in post.caegories %}
+          <p>
+          <data data-icon="ei-archive"></data>
+          {{category}}
+          </p>
+        {% endfor %}
+      </div>    
       <div class="post_excerpt">
         <p>
           {% if post.description %}
@@ -23,16 +31,10 @@ title: Work
           {% else %}
           {{ post.excerpt }}
           {% endif %} 
-          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> »  </a>
+          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Learn More...</a>
         </p> 
       </div>
       <footer class="post_meta">
-
-        {% for category in post.categories %}
-        <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
-          <data data-icon="ei-archive"></data>
-          {{category}}</a>
-        {% endfor %}
 
         <!--p class="readmore">
           <a href=""><data data-icon="ei-arrow-right"></data>Read this article  </a>
