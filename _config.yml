@@ -17,3 +17,9 @@ kramdown:
 
 # used this for post_excerpt at index_page
 excerpt_separator: <!--description-->
+
+# Collections
+collections:
+  work:
+    output: true
+    permalink: /work/:path/
