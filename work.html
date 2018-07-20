@@ -16,9 +16,9 @@ title: Work
       <header class="post_header">
         <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
       </header>  
-        <div style="display:inline;">
+        <div>
         {% for category in post.categories %}
-          <p><data data-icon="ei-archive"></data>{{category}}</p>
+          <p style="display:inline;"><data data-icon="ei-archive"></data>{{category}}</p>
         {% endfor %}
         </div>
       <div class="post_excerpt">
