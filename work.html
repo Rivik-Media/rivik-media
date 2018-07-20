@@ -7,24 +7,40 @@ title: Work
 
   <h2>Our Work</h2>
   
-  <section class="archive_list">
-    
-       {% for post in site.work %}
-       <div class="category-name">
-       {% assign currentDate = post.date | date: "%Y" %}
-       {% if currentDate != myDate %}
-           {% unless forloop.first %}</ul>{% endunless %}
-           <h2>{{ currentDate }}</h2>
-           <ul>
-           {% assign myDate = currentDate %}
-             {% endif %}
-       </div>
-       <div class="post_title">
-        <li><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d, %Y" }}</span> - {{ post.title }}</a></li>
-       </div>
-       {% if forloop.last %}</ul>{% endif %}
-   {% endfor %}
 
-  </section>
+  <div class="post-list">
+
+    {% for post in site.work limit:5 %}
+
+    <article class="post_card post">
+      <header class="post_header">
+        <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
+      </header>
+      <div class="post_excerpt">
+        <p>
+          {% if post.description %}
+          {{ post.description}}
+          {% else %}
+          {{ post.excerpt }}
+          {% endif %} 
+          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> »  </a>
+        </p> 
+      </div>
+      <footer class="post_meta">
+
+        
+        {% for category in post.categories %}
+        <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
+          <data data-icon="ei-archive"></data>
+          {{category}}</a>
+        {% endfor %}
+
+        <!--p class="readmore">
+          <a href=""><data data-icon="ei-arrow-right"></data>Read this article  </a>
+        </p-->
+      </footer>
+      <hr/>
+    </article>
+    {% endfor %}
   
 </div>
