@@ -26,11 +26,10 @@ title: Work
         </p> 
       </div>
       <footer class="post_meta">
-        {% for category in post.caegories %}
-          <p>
+        {% for category in post.categories %}
+        <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
           <data data-icon="ei-archive"></data>
-          {{category}}
-          </p>
+          {{category}}</a>
         {% endfor %}
         
         <p class="readmore">
