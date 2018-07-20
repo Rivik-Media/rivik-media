@@ -2,7 +2,8 @@
 layout: page
 title: C&R Flooring
 category: 
-- Web Development
+- Website
+- WordPress
 - Google Apps
 - Quickbooks 
 ---
