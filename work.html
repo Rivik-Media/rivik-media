@@ -16,6 +16,11 @@ title: Work
       <header class="post_header">
         <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
       </header>  
+        <div style="display:inline;">
+        {% for category in post.categories %}
+          <p><data data-icon="ei-archive"></data>{{category}}</p>
+        {% endfor %}
+        </div>
       <div class="post_excerpt">
         <p>
           {% if post.description %}
@@ -25,11 +30,7 @@ title: Work
           {% endif %} 
         </p> 
       </div>
-      <footer class="post_meta">
-        {% for category in post.categories %}
-        <a href=""><data data-icon="ei-archive"></data>{{category}}</a>
-        {% endfor %}
-        
+      <footer class="post_meta">     
         <p class="readmore">
           <a href="{{ post.url | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data>Learn More</a>
         </p>
