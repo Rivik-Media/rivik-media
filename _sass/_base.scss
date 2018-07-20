@@ -176,11 +176,10 @@ a {
   color: #780000;
   text-decoration: none;
   //background-color: transparent;
-  -webkit-transition: color .4s;
-  transition: color .4s;
+  //-webkit-transition: color .4s;
+  //transition: color .4s;
 }
 a:hover {
-  color: #b1b1b1;
   text-decoration: underline;
 }
 
