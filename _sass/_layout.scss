@@ -56,18 +56,18 @@ body {
   font-weight:$font-weight-bold;
 }
 .logo a {
-  -webkit-transition:.4s;
-  transition:.4s;
+  //-webkit-transition:.4s;
+  //transition:.4s;
 }
 
 .logo a:hover {
   color:#222;
-  background-image:-webkit-linear-gradient(bottom,#222,#222);
-  background-image:linear-gradient(to top,#222,#222);
-  text-shadow:-1px -1px 0 #FDFDFD,1px -1px 0 #FDFDFD,-1px 1px 0 #FDFDFD,1px 1px 0 #FDFDFD;
-  background-repeat:repeat-x;
-  background-size:2px 2px;
-  background-position:0 96%
+  //background-image:-webkit-linear-gradient(bottom,#222,#222);
+  //background-image:linear-gradient(to top,#222,#222);
+  //text-shadow:-1px -1px 0 #FDFDFD,1px -1px 0 #FDFDFD,-1px 1px 0 #FDFDFD,1px 1px 0 #FDFDFD;
+  //background-repeat:repeat-x;
+  //background-size:2px 2px;
+  //background-position:0 96%
 }
 
 .nav {
