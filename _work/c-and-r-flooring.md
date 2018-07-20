@@ -6,3 +6,5 @@ category:
 - Google Apps
 - Quickbooks 
 ---
+
+One of the first clients of Rivik Media. We have been working with C&R Flooring continuously since 2008. 
