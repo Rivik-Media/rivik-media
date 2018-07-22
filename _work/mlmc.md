@@ -5,7 +5,6 @@ category:
 - Office 365 
 - AWS Server
 - Active Director
-- Microsoft Surface
 - Purchasing
 - Podio 
 ---
