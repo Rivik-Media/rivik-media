@@ -10,4 +10,6 @@ category:
 
 A self published children's book author and company in Somers, CT. 
 
-Client Since: 2017
+Timeline: 2017 - Present 
+Industry: Children's Books
+Location: Somers, CT 
