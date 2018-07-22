@@ -11,6 +11,6 @@ category:
 
 A company started from the ground up with the help of Rivik Media. 
 
-Timeline: 2017 - Present
-Industry: Wood Flooring 
-Location: Framingham, MA
+- Timeline: 2017 - Present
+- Industry: Wood Flooring 
+- Location: Framingham, MA
