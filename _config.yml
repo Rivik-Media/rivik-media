@@ -1,6 +1,6 @@
 # Site/SEO settings
 email: hello@rivikmedia.com
-baseurl: ""
+baseurl: "/"
 paginate: 12
 paginate_path: "/page/:num"
 permalink: /:year/:month/:title/
@@ -10,7 +10,7 @@ name: Rivik Media
 title: Rivik Media
 description: >
   A theme based on the Barber theme by Thomas Vaeth.
-url: https://rivik-media.github.io/rivik-media/
+url: "https://rivik-media.github.io/rivik-media/"
 twitter_username: rivikmedia
 default_img: /assets/images/seo.jpg
 social:
